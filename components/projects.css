@@ -1,0 +1,151 @@
+#workshopImg{
+    width: 650px;
+    height: 300px;
+    object-fit: contain;
+    margin-bottom: 5%;
+    margin-top: 7%;
+}
+
+#projectName{
+      font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+}
+#projectDesc{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: gray;
+}
+
+.containerCards{
+    width: 700px;
+    height: 600px;
+    border: 1px solid #21a4c8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 5%;
+
+}
+.container__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__card__buttons{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5%;
+    
+}
+
+.previewButton{
+    width: 30%;
+    border-radius: 25px;
+    height: 50px;
+    background: rgb(146,95,214);
+    background: linear-gradient(90deg, rgba(146,95,214,1) 0%, rgba(33,164,200,1) 100%);
+    border: none;
+    color: white;
+   
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    -webkit-box-shadow: 0px 2px 51px 2px rgba(33,164,200,0.61);
+-moz-box-shadow: 0px 2px 51px 2px rgba(33,164,200,0.61);
+box-shadow: 0px 2px 51px 2px rgba(33,164,200,0.61);
+cursor: pointer;
+}
+
+.previewButton:hover{
+    background: rgb(146,95,214);
+  background: linear-gradient(90deg, rgb(177, 122, 250) 0%, rgb(0, 200, 255) 100%);
+}
+.previewButton:active{
+    background: rgb(146,95,214);
+    background: linear-gradient(90deg, rgb(103, 40, 185) 0%, rgb(17, 106, 131) 100%);
+}
+.previewButtonNetflixCalc{
+    display: none;
+}
+#gitHubButton{
+    width: 30%;
+    border-radius: 25px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.cards__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5%;
+    flex-wrap: wrap;
+}
+
+#previewButton:hover{
+    background: rgb(146,95,214);
+    background: linear-gradient(90deg, rgb(177, 122, 250) 0%, rgb(0, 200, 255) 100%);
+}
+#previewButton:active{
+    background: rgb(146,95,214);
+    background: linear-gradient(90deg, rgb(103, 40, 185) 0%, rgb(17, 106, 131) 100%);
+}
+
+#gitHubButton:hover{
+    background-color: rgb(68, 68, 68);
+
+}
+
+#gitHubButton:active{
+    background-color: rgb(44, 44, 44);
+}
+
+.react-wrapper{
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.205);
+}
+.closingModal{
+    width: 10%;
+    border-radius: 25px;
+    height: 50px;
+    background: rgb(146,95,214);
+    background: linear-gradient(90deg, rgba(146,95,214,1) 0%, rgba(33,164,200,1) 100%);
+    border: none;
+    color: white;
+   
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    -webkit-box-shadow: 0px 2px 51px 2px rgba(33,164,200,0.61);
+-moz-box-shadow: 0px 2px 51px 2px rgba(33,164,200,0.61);
+box-shadow: 0px 2px 51px 2px rgba(33,164,200,0.61);
+cursor: pointer;
+}
+
+.closingModal:hover{
+    background: rgb(146,95,214);
+  background: linear-gradient(90deg, rgb(177, 122, 250) 0%, rgb(0, 200, 255) 100%);
+}
+
+.closingModal:active{
+    background: rgb(146,95,214);
+    background: linear-gradient(90deg, rgb(103, 40, 185) 0%, rgb(17, 106, 131) 100%);
+}
+
+#gitHubButtonHidden{
+    display: none;
+}

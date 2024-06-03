@@ -1,0 +1,69 @@
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+
+.footerLogos{
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+}
+
+#footerContactMe{
+    background: rgb(146,95,214);
+    background: linear-gradient(90deg, rgba(146,95,214,1) 0%, rgba(33,164,200,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+}
+#footerEmail{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+.footerLogoEmail{
+    display: flex;
+    gap:5px;
+    flex-direction: row-reverse;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#footer__linkedin{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#footer__linkedin:hover{
+    background: rgb(146,95,214);
+    background: linear-gradient(90deg, rgba(146,95,214,1) 0%, rgba(33,164,200,1) 100%);
+}
+#footer__linkedin:active{
+    background: rgb(146,95,214);
+    background: linear-gradient(90deg, rgba(146,95,214,1) 0%, rgb(8, 58, 71) 100%);
+}
+#footer__gitHub:hover{
+    background: rgb(146,95,214);
+    background: linear-gradient(90deg, rgba(146,95,214,1) 0%, rgba(33,164,200,1) 100%);
+}
+#footer__gitHub:active{
+    background: rgb(146,95,214);
+    background: linear-gradient(90deg, rgba(146,95,214,1) 0%, rgb(8, 58, 71) 100%);
+}
+#footer__gitHub{
+    border-radius: 50%;
+    cursor: pointer;
+}

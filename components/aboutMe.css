@@ -1,0 +1,60 @@
+.containerTimeLine{
+    margin-left: 10%;
+    background-color: white;
+    width: 75%;
+    height: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 8%;
+    margin-bottom: 20%;
+}
+
+.containerDot{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+    background: rgb(146,95,214);
+    background: linear-gradient(90deg, rgba(146,95,214,1) 0%, rgba(33,164,200,1) 100%);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+
+}
+
+#schoolYear{
+position: relative;
+top:-50px;
+font-size: 30px;
+}
+
+#schoolDesc{
+    /* position: relative;
+    top:10px; */
+    width: 200px;
+    color: gray;
+
+}
+
+#codersLabYear{
+position: relative;
+top:-50px;
+font-size: 30px;
+}
+#codersLabDesc{
+    width: 220px;
+    color: gray;
+}
+#ProjectsYear{
+    position: relative;
+top:-50px;
+font-size: 30px;
+}
+
+#ProjectsDesc{
+    width: 200px;
+    color: gray;
+}

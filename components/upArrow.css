@@ -1,0 +1,30 @@
+.arrowContainer{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(146,95,214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    margin-left: 2%;
+    margin-top: 20%;
+    cursor: pointer;
+}
+
+.containerArrow{
+    width: 32px;
+    height: 35px;
+    
+}
+.containerArrowVisible{
+    transition: all 1s ease;
+ -webkit-transition: all 1s ease;
+ opacity: 1;
+
+}
+
+.containerArrowVisible:hover{
+    background: rgb(126,65,204);
+    background: linear-gradient(90deg, rgba(146,95,214,1) 0%, rgba(33,164,200,1) 100%);
+}
